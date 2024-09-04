@@ -47,9 +47,11 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Docsㄴㅇㄴ <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth informatioㅌㅋㅊㅋㅌㅊㅋㅊㅋㅊn about Next.js features anㅊㅋㅊㄴㅋㄴㅊㅋㅊd API.
+          https://github.com/Jwoon0727/test.git
+          </p>
         </a>
 
         <a
