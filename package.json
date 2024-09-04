@@ -2,13 +2,17 @@
   "name": "pwa-nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Jwoon0727.github.io/test/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "next": "14.2.7",
     "next-pwa": "^5.6.0",
     "react": "^18",
